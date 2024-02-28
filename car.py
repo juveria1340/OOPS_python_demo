@@ -10,7 +10,7 @@ class Car:
         return full_name.title()
 
     def read_odometer(self):
-        print(f"This car has {self.odometer_reading} miles on it.")
+        return f"This car has {self.odometer_reading} miles on it."
 
     def update_odometer(self, mileage):
         if mileage >= self.odometer_reading:
